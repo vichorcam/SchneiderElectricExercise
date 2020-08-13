@@ -1,0 +1,9 @@
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\bin\Debug\SchneiderElectricProject.exe.config
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\bin\Debug\SchneiderElectricProject.exe
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\bin\Debug\SchneiderElectricProject.pdb
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\obj\Debug\SchneiderElectricProject.csprojAssemblyReference.cache
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\obj\Debug\SchneiderElectricProject.Properties.Resources.resources
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\obj\Debug\SchneiderElectricProject.csproj.GenerateResource.cache
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\obj\Debug\SchneiderElectricProject.csproj.CoreCompileInputs.cache
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\obj\Debug\SchneiderElectricProject.exe
+C:\Users\Victor\source\repos\vichorcam\SchneiderElectricExercise\SchneiderElectricProject\SchneiderElectricProject\obj\Debug\SchneiderElectricProject.pdb
