@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SchneiderElectricProject.exe" version="1.0.0.0" publicKeyToken="14570241660cbf6f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SchneiderElectricProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SchneiderElectricProject.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="4988280">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>02FemIMUOJ0B3vMP62rh37pXY1ylD58dJeBNfcbCkYk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="591736">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vXgL8O3AegGuOBvdh0qH8BQ6x9HTpcdL/4cNT0avJYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SchneiderElectricProject.exe" size="547304">
+      <assemblyIdentity name="SchneiderElectricProject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J/QtyTEmaXsqxV6aVMHOr3oxL4LrZdnmuPi0smA9C6Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLite-net.dll" size="93184">
+      <assemblyIdentity name="SQLite-net" version="1.7.335.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8UWpCRQ1p0mfs7Fe4gLBkrJ0hP+y1hkyuuAahJqgQsQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.batteries_v2.dll" size="6144">
+      <assemblyIdentity name="SQLitePCLRaw.batteries_v2" version="2.0.3.851" publicKeyToken="8226EA5DF37BCAE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rjbHeMubrV7IwIvgNj3AV65tHUeyixxQd9Crz2ItZpY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.core.dll" size="46592">
+      <assemblyIdentity name="SQLitePCLRaw.core" version="2.0.3.851" publicKeyToken="1488E028CA7AB535" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QC3QcGoKCSSMUZ13iHBRtSZW1Wpj7F3sGCLiU3gfUPI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.nativelibrary.dll" size="9728">
+      <assemblyIdentity name="SQLitePCLRaw.nativelibrary" version="2.0.3.851" publicKeyToken="502ED628492AB262" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GsJiINYsmKYhKaqdktkBHt+TDV7Um809IJ300gSksr8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SQLitePCLRaw.provider.dynamic_cdecl.dll" size="56832">
+      <assemblyIdentity name="SQLitePCLRaw.provider.dynamic_cdecl" version="2.0.3.851" publicKeyToken="B68184102CBA0B3B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2sQ75lmpMWEvPSr4XgpDjy+B+gmcguwMa/L3nCQVqMw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Buffers.dll" size="20856">
+      <assemblyIdentity name="System.Buffers" version="4.0.3.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rMzPvkXZ8I/+7ZkW43sz6YxlvgEs//bn+ntnIQzh/vs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.EF6.dll" size="186880">
+      <assemblyIdentity name="System.Data.SQLite.EF6" version="1.0.113.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wPyyMYEHlddUBGjZwiCpIPklKEIx3OdgGF2er5wS6mY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.Linq.dll" size="186880">
+      <assemblyIdentity name="System.Data.SQLite.Linq" version="1.0.113.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nUf/8CSXSPYP4C0uylj3QZ6xEC5idoiZQv+GxNc4RPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Memory.dll" size="141184">
+      <assemblyIdentity name="System.Memory" version="4.0.1.1" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jnYxjosGaSq/fasRadJ9FVV/fwo002r2Rj7/D+ISE8c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Numerics.Vectors.dll" size="115856">
+      <assemblyIdentity name="System.Numerics.Vectors" version="4.1.4.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HT74aYKB589zcdFVSv71hys5+Wwm2nciEKM9oEG6EYM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Runtime.CompilerServices.Unsafe.dll" size="17000">
+      <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" version="4.0.6.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9u+WbQGbHEBmWc4Y86sAw8fJM05NrcAkm8ZyHNt37po=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="runtimes\win-arm\native\e_sqlite3.dll" size="894464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9pl1DLiZK27CDybbWblwZ2/uFxXTnnlIgz7IxaaakAc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x64\native\e_sqlite3.dll" size="1303040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pSOxL7axuRS8nL1nxE2y6aonMtOTXpnyuYAZIv34zz0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="runtimes\win-x86\native\e_sqlite3.dll" size="1018368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+VmqCWN0yMCbJTTkYsYaD68kkvZA6L6ti6IOhZdd57w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SchneiderElectricProject.exe.config" size="1909">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VpaAbcHwcT3etTx0zuVkyyUa144D1fpT3P/mCOiFgwA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sqlite3.dll" size="1947136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tk0YtO4jiz7P7bNaXaxZx4KL/R8Hor8267U7vMPcs3k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-OJ3M9K7\Victor" issuerKeyHash="b82cb7e01e5c3d99d15a4ebfdd18a32114427371" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rBvW5oK/fhMT4XvyW3rewxL1TXpuglWNyyVydppC/p8=</DigestValue></Reference></SignedInfo><SignatureValue>FjrV1jm25rnUm3iCsF/Wn4SbBsrXoXSG0/VkzrrYmcpymn6fjNiaFXtYPbNTMIH59IvMMD8ITk6/C005BYajf2CtpW4XvJ4ANJiI2Zt8Qbv0UuHFP6vHyANwZLptPEYbPwtjLvl3w5Ryabm2pxiNoamN/g0X/ix2O6wSpyEml6k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qO62KsjGglvskT6fTAPzppf/jFiKxj6O0myPv6KdeHv7ANnfFyHXOhFsWtOhsGPAOs+VibdSr/t7YGDMrrwf8SDvisNNF5oIK+R6VWMmn34AiI9veiCBEu/SmVzrdi+4h3JDJs8VXEVpQI+ZlDm6NNbmXPiVV+QLXkoehFNXD7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9ffe429a767225cb8d55826e7a4df512c3de7a5bf27be113137ebf82e6d61bac" Description="" Url=""><as:assemblyIdentity name="SchneiderElectricProject.exe" version="1.0.0.0" publicKeyToken="14570241660cbf6f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-OJ3M9K7\Victor</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Jx/519nQOZ+G5KhuIf9NMFKNjNjfcAY3eEQRYhIB8t0=</DigestValue></Reference></SignedInfo><SignatureValue>MBhDAa4G3fFOg35RwaIWtoUdpYGwyHVl/s8p0dkDjcS3FlrpvYYijPxHlkRft8OASIDg8M/zAZnpCSU9pFlNAu5xwEPf3Ogg+8qqMdu4S9NY3C5RYMVPe32ZRDVIoiRvoESmRv8zc37+gRQSyGRPjRUsXJJXTe7nF25dITKyDlI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qO62KsjGglvskT6fTAPzppf/jFiKxj6O0myPv6KdeHv7ANnfFyHXOhFsWtOhsGPAOs+VibdSr/t7YGDMrrwf8SDvisNNF5oIK+R6VWMmn34AiI9veiCBEu/SmVzrdi+4h3JDJs8VXEVpQI+ZlDm6NNbmXPiVV+QLXkoehFNXD7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQM4CNjjc6uZ5MvqGSzZLc7zANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAE8ASgAzAE0AOQBLADcAXABWAGkAYwB0AG8AcjAeFw0yMDA4MTMxODMyMTZaFw0yMTA4MTQwMDMyMTZaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ATwBKADMATQA5AEsANwBcAFYAaQBjAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCo7rYqyMaCW+yRPp9MA/Oml/+MWIrGPo7SbI+/op14e/sA2d8XIdc6EWxa06GwY8A6z5WJt1Kv+3tgYMyuvB/xIO+Kw00Xmggr5HpVYyaffgCIj296IIES79KZXOt2L7iHckMmzxVcRWlAj5mUObo01uZc+JVX5AteSh6EU1cPtQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABeQ6+VB8Rwe9RRywtlelfhUSJCN4urTNkmcDzZZ/E0awwDglit9hPFWNSD9IHabIBXWyQwPKpvgmgNOuwgCTPiZ5KvX7pbiM9uui62Wx1wVWa2X1M7iZQP9OEmtCdZ/M1sPI4haAKTkHEukt5tjrutCs4/sfRcMgl7HKgddB7lS</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
